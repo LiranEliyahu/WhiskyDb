@@ -19,7 +19,7 @@ public class ShowCommands {
                 {3} delete <name>
 
                 Docs commands:
-                {1} <colName>.insert.name@<field>:<indexName>,<field>:<value>, .....
+                {1} <colName>.insert.name@<field>:<indexName>,<field>:<value>,.....
                 {2} <colName>.update.{<field>:<indexName>}, {<field>:<value>})
                 {3} <colName>.remove.<name>
                 {4} <colName>.find.name@<value>
