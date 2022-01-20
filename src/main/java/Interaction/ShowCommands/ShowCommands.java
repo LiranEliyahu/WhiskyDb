@@ -22,10 +22,13 @@ public class ShowCommands {
                 {1} <colName>.insert.({<field>:<indexName>, <field>:<value>, .....})
                 {2} <colName>.update.({<field>:<indexName>}, {<field>:<value>})
                 {3} <colName>.remove.(<name>)
-                {4} <colName>.find.(<K or empty>)""");
+                {4} <colName>.find.(<K or empty>)
+                
+                in order to quit write: q!""");
     }
     public void getWelcome(){
         System.out.println("\nWelcome to WhiskyDb!");
+        System.out.println("[made by D1vine]");
         System.out.println("** when you get stuck just write help **");
     }
 }
