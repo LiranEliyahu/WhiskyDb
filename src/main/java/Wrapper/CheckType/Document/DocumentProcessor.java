@@ -12,13 +12,13 @@ public class DocumentProcessor {
     public void getDocCommand(String[] command){
         if(command.length > 1) {
             if (Objects.equals(command[1], "insert")) {
-                new Insert();
+                new Insert(command);
             } else if (Objects.equals(command[1], "update")) {
                 new Update();
             } else if (Objects.equals(command[1], "remove")) {
-                new Remove();
+                new Remove(command);
             } else if (Objects.equals(command[1], "find")) {
-                new Find();
+                new Find(command);
             }else{
                 System.out.println("try again, type help for info");
             }
